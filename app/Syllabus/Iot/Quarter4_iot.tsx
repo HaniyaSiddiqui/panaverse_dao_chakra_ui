@@ -91,7 +91,7 @@ export default function Quarter4_iot() {
 
             </Stack>
 
-            <Container maxW={'5xl'} mt={10}>
+            <Container maxW={'3xl'} mt={10}>
                 <Accordion >
                     {/* ************  1  ************ */}
                     <AccordionItem m={2}>

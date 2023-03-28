@@ -37,11 +37,11 @@ const features = [
 
 export default function Outcome() {
   return (
-    <Box p={50} >
+    <Box p={100} pl={120} maxW={'8xl'} >
 
-      <Stack align={'center'} textAlign={'center'}>
-        <Heading fontSize={'3xl'}>The Outcome for Participants of the Program</Heading>
-        <Text color={'gray.600'} fontSize={'md'}>
+      <Stack  >
+        <Heading fontSize={'3xl'} textAlign={'center'}>The Outcome for Participants of the Program</Heading>
+        <Text color={'gray.600'} fontSize={'md'} align={'left'} textAlign={'left'}>
           The graduates of this program will own products (Full-Stack App Templates, AR and VR Experiences, and APIs) that are marketed globally by the Panaverse DAO and, if they like, will also be able to start off by offering services at a rate of $50 per hour ($96,000 per year). This would give Pakistani professionals and students a fantastic opportunity to better their financial situation while also giving the economy a much-needed boost by expanding software exports.
 
         </Text>
@@ -127,7 +127,7 @@ export default function Outcome() {
 
         </Stack>
 
-        <Stack maxW={'480px'} mt={10}>
+        <Stack maxW={'400px'} mt={10}>
 
           <HStack align={'top'}>
             <Box color={'green.400'} px={2}>
@@ -174,7 +174,7 @@ export default function Outcome() {
 
       </Stack>
 
-    </Box>
+    </Box >
 
 
   );

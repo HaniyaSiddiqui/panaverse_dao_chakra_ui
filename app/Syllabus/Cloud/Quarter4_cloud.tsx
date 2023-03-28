@@ -87,7 +87,7 @@ export default function Quarter4_cloud() {
                 </Text>
             </Stack>
 
-            <Container maxW={'5xl'} mt={10}>
+            <Container maxW={'3xl'} mt={10}>
                 <Accordion >
                     {/* ************  1  ************ */}
                     <AccordionItem m={2}>
@@ -99,7 +99,7 @@ export default function Quarter4_cloud() {
 
                                 borderRadius={'25'}>
                                 <Box as="span" flex='1' textAlign='left'>
-                                Kubernetes: Up and Running
+                                    Kubernetes: Up and Running
                                 </Box>
                                 <AccordionIcon />
                             </AccordionButton>
@@ -112,7 +112,7 @@ export default function Quarter4_cloud() {
                                         <Text align={'start'} _hover={{
                                             color: 'blue.400',
                                         }} color={'black.400'} fontWeight={500}>
-                                           Kubernetes: Up and Running: Dive into the Future of Infrastructure 3rd Edition
+                                            Kubernetes: Up and Running: Dive into the Future of Infrastructure 3rd Edition
                                         </Text>
                                     </NextLink>
                                 </Stack>
@@ -130,22 +130,22 @@ export default function Quarter4_cloud() {
                                     bgGradient: 'linear(to-r, pink.500, blue.900)',
                                 }} borderRadius={'25px'}>
                                 <Box as="span" flex='1' textAlign='left'>
-                                Cloud Development 
+                                    Cloud Development
                                 </Box>
                                 <AccordionIcon />
                             </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
 
-                        <HStack align={'top'} spacing={5} mb={2}>
+                            <HStack align={'top'} spacing={5} mb={2}>
                                 <Box color={'green.400'} px={2}><Icon as={LinkIcon} /> </Box>
                                 <Stack align={'start'}>
                                     <NextLink target="_blank" href='https://cdk8s.io/' passHref>
                                         <Text align={'start'} _hover={{
                                             color: 'blue.400',
                                         }} color={'black.400'} fontWeight={500}>
-                                           
-                                           Cloud Development Kit for Kubernetes
+
+                                            Cloud Development Kit for Kubernetes
 
                                         </Text>
                                     </NextLink>
@@ -153,7 +153,7 @@ export default function Quarter4_cloud() {
                             </HStack>
 
 
-                 
+
                         </AccordionPanel>
                     </AccordionItem>
 

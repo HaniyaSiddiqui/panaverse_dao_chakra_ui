@@ -35,7 +35,7 @@ export default function Home() {
 
   return (
     <Box>
-      <Container maxW={'8xl'}>
+      <Container maxW={'8xl'} >
         <Flex
           bg={useColorModeValue('white', 'gray.800')}
           color={useColorModeValue('gray.600', 'white')}

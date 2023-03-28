@@ -51,10 +51,10 @@ export default function Quarter1() {
                     </Text>
                 </Stack>
 
-                <Container maxW={'5xl'} mt={10}>
+                <Container maxW={'3xl'} mt={10}>
                     <Accordion >
                         {/* ************  1  ************ */}
-                        <AccordionItem m={2}>
+                        <AccordionItem m={2} >
                             <h2>
                                 <AccordionButton fontWeight={'2xl'} color={'gray.100'} bgGradient='linear(to-b, blue.900, pink.900)'
                                     _hover={{

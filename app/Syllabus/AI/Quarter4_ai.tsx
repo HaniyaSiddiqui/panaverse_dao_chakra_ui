@@ -90,7 +90,7 @@ export default function Quarter4_ai() {
 
             </Stack>
 
-            <Container maxW={'5xl'} mt={10}>
+            <Container maxW={'3xl'} mt={10}>
                 <Accordion >
                     {/* ************  1  ************ */}
 

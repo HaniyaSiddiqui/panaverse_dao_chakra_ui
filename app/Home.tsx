@@ -19,21 +19,24 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <Container maxW={'10xl'}  >
+    <Container maxW={'8xl'}  >
+
+
+
       <Stack
         bgGradient='linear(to-b, blue.900, pink.900)' borderRadius={'25'}
         // bg={'cyan.500'}
-        textAlign={'center'}
-        align={'center'}
+        textAlign={'left'}
+        align={'left'}
         spacing={{ base: 8, md: 10 }}
         py={{ base: 10, md: 28 }}
         p={'10'}
         className={styles.fontFamily}
       >
 
-        <Box w={'full'} >
+        <Box maxW={'8xl'} >
 
-          <Heading w={'full'}
+          <Heading maxW={'8xl'}
             fontWeight={800}
             fontSize={{ base: '4xl', sm: '4xl', md: '6xl' }}
             color={'gray.100'}>
@@ -47,7 +50,7 @@ export default function Home() {
         </Box>
 
         <Stack direction={{ base: 'column', lg: 'column', md: 'row' }} pl={{ lg: '40' }}>
-          <Flex p={8} flex={1} textAlign={{ lg: 'left', md: 'center', sm: 'center' }} align={'left'} justify={'left'}>
+          <Flex pt={4} flex={1} textAlign={{ lg: 'left', md: 'left', sm: 'center' }} align={'left'} justify={'left'}>
             <Stack spacing={8} direction={{ base: 'column', lg: 'row', md: 'row' }}>
               <Box
                 flex={1}

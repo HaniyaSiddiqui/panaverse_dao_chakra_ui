@@ -81,7 +81,7 @@ export default function Quarter5_ai() {
 
             </Stack>
 
-            <Container maxW={'5xl'} mt={10}>
+            <Container maxW={'3xl'} mt={10}>
                 <Accordion >
                     {/* ************  1  ************ */}
 
