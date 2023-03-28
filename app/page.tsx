@@ -9,7 +9,6 @@ import Main from './Home'
 import Footer from './Footer'
 
 import { extendTheme } from '@chakra-ui/react'
-import { keyframes } from "@chakra-ui/system";
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
