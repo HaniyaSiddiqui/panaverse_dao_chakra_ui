@@ -34,10 +34,7 @@ import { LinkIcon, CheckIcon, ArrowRightIcon, MinusIcon } from '@chakra-ui/icons
 export default function Quarter5_cloud() {
     return (
         <Box p={4}>
-
             <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
-
-
                 <Heading fontSize={'5xl'} color={'pink.900'}>QUARTER V</Heading>
                 <Text fontWeight={'5xl'} fontSize={{ base: 'md', lg: 'xl' }} color={'pink.900'}>
                     Duration: 13 Weeks
@@ -48,9 +45,7 @@ export default function Quarter5_cloud() {
                         position={'relative'}
                         _after={{
                             content: "''",
-
                             width: 'full',
-
                             position: 'absolute',
                             bottom: 1,
                             left: 0,

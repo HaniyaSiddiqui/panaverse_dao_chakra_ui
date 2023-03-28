@@ -34,7 +34,6 @@ import { LinkIcon, CheckIcon, ArrowRightIcon, MinusIcon } from '@chakra-ui/icons
 export default function Quarter4_iot() {
     return (
         <Box p={4}>
-
             <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
 
 
@@ -90,7 +89,6 @@ export default function Quarter4_iot() {
 
 
             </Stack>
-
             <Container maxW={'3xl'} mt={10}>
                 <Accordion >
                     {/* ************  1  ************ */}
@@ -180,7 +178,6 @@ export default function Quarter4_iot() {
 
             </Container >
         </Box >
-
     );
 }
 

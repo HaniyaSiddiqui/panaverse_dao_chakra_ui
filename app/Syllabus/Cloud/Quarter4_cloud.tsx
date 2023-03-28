@@ -36,8 +36,6 @@ export default function Quarter4_cloud() {
         <Box p={4}>
 
             <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
-
-
                 <Heading fontSize={'5xl'} color={'pink.900'}>QUARTER IV</Heading>
                 <Text fontWeight={'5xl'} fontSize={{ base: 'md', lg: 'xl' }} color={'pink.900'}>
                     Duration: 13 Weeks
@@ -48,9 +46,7 @@ export default function Quarter4_cloud() {
                         position={'relative'}
                         _after={{
                             content: "''",
-
                             width: 'full',
-
                             position: 'absolute',
                             bottom: 1,
                             left: 0,
@@ -69,21 +65,15 @@ export default function Quarter4_cloud() {
                 <Heading fontSize={'3xl'}>Course Description</Heading>
                 <Text textAlign={'left'} color={'gray.600'} fontSize={'xl'}>
                     Cloud-native architecture and technologies are an approach to designing, constructing, and operating workloads that are built in the cloud and take full advantage of the cloud computing model. Cloud-native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.
-
-
                 </Text>
 
                 <Text mt={2} textAlign={'left'} color={'gray.600'} fontSize={'xl'}>
                     These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.
-
-
                 </Text>
 
 
                 <Text mt={2} textAlign={'left'} color={'gray.600'} fontSize={'xl'}>
                     Kubernetes is an open-source system for automating the deployment, scaling, and management of containerized applications. In this course, you will learn how to develop cloud applications using cloud-native technologies like Containers, Kubernetes, and CDK for Kubernetes.
-
-
                 </Text>
             </Stack>
 

@@ -36,10 +36,7 @@ export default function Vision() {
   const cards = [
     {
       title: 'OUR VISION',
-      // text:
-      //   "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
-      image:
-        './home/123Z_2101.w020.n001.946B.p15.946.jpg',
+      image: './home/123Z_2101.w020.n001.946B.p15.946.jpg',
       height: 'full',
     },
 
@@ -75,14 +72,14 @@ export default function Vision() {
             <Box
               key={index}
               height={'2xl'}
-              // height={'600px'}
+
               objectFit={'cover'}
-              // position="relative"
+
               backgroundPosition="center"
               backgroundRepeat="no-repeat"
               backgroundSize="cover"
               backgroundImage={`url(${card.image})`}>
-              {/* This is the block you need to change, to customize the caption */}
+
               <Container size="container.lg" height="600px" position="relative">
                 <Stack
                   spacing={6}

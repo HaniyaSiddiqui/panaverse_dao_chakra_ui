@@ -34,15 +34,9 @@ import { LinkIcon, CheckIcon, ArrowRightIcon, MinusIcon } from '@chakra-ui/icons
 export default function Quarter5_genomics() {
     return (
         <Box p={4}>
-
-
-
-
             <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
-
                 <Heading fontSize={'5xl'} color={'pink.900'}>QUARTER V</Heading>
                 <Text fontWeight={'5xl'} fontSize={{ base: 'md', lg: 'xl' }} color={'pink.900'}>
-
                     Duration: 13 Weeks
                 </Text>
 
@@ -52,9 +46,7 @@ export default function Quarter5_genomics() {
                         position={'relative'}
                         _after={{
                             content: "''",
-
                             width: 'full',
-
                             position: 'absolute',
                             bottom: 1,
                             left: 0,
@@ -75,9 +67,7 @@ export default function Quarter5_genomics() {
                 </Text>
                 <Heading fontSize={'3xl'}>Course Description</Heading>
                 <Text textAlign={'left'} color={'gray.600'} fontSize={'xl'}>
-                    In this course we will discover modern, next-generation sequencing libraries from the powerful Python ecosystem to perform cutting-edge research and analyze large amounts of biological data.                </Text>
-
-
+                    In this course we will discover modern, next-generation sequencing libraries from the powerful Python ecosystem to perform cutting-edge research and analyze large amounts of biological data.</Text>
                 <Text textAlign={'left'} mt={4} color={'gray.600'} fontSize={'md'}>
                     Textbook: <Link color={'blue.400'} href='https://www.amazon.com/Bioinformatics-Python-Cookbook-applications-computational/dp/1803236426/ref=sr_1_1' >
                         https://www.amazon.com/Bioinformatics-Python-Cookbook-applications-computational/dp/1803236426/ref=sr_1_1
